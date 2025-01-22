@@ -38,7 +38,10 @@ export function Dashboard() {
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
+    
+
     function loadCars() {
+      console.log(user?.uid)
       if (!user?.uid) {
         return;
       }
@@ -62,6 +65,8 @@ export function Dashboard() {
         });
 
         setCars(listcars);
+
+        
       });
     }
     loadCars();

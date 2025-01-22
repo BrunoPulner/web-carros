@@ -129,7 +129,7 @@ export function New() {
         reset();
         setCarImages([]);
         console.log("Cadastrado com sucesso!");
-        toast.success("Carro cadastrado com sucesso");
+        toast.success("Carro  cadastrado comsucesso");
       })
       .catch((error) => {
         console.log(error);

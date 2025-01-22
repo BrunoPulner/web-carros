@@ -1,3 +1,4 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
@@ -9,7 +10,7 @@ const firebaseConfig = {
   projectId: "webcarros-a833b",
   storageBucket: "webcarros-a833b.firebasestorage.app",
   messagingSenderId: "118627615681",
-  appId: "1:118627615681:web:95025bcb5e477b53a1e540",
+  appId: "1:118627615681:web:95025bcb5e477b53a1e540"
 };
 
 // Initialize Firebase
